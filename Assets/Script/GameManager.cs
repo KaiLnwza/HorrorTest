@@ -50,7 +50,7 @@ public class NewBehaviourScript : MonoBehaviour
     public GameObject gift_quest;
     public GameObject show_gift;
     bool firstfight=true;
-    public static bool gift_accept;
+    public static bool gift_accept=false;
     bool foot_accept;
     public GameObject show_foot;
     public GameObject foot_quest;

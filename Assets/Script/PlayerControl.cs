@@ -175,14 +175,12 @@ public class Logic : MonoBehaviour
                 Guide.SetActive(true);
             }
         }
-        if (collision.gameObject.CompareTag("Lamp"))
+        if (collision.gameObject.CompareTag("Lamp")&& NewBehaviourScript.gift_accept == true )
         {
-            if (NewBehaviourScript.gift_accept == true&&!firstclimb!=true)
+            if (firstclimb!=true)
             {
                 Guide.SetActive(true);
             }
-
-
             climb = true;
         }
 
@@ -195,7 +193,6 @@ public class Logic : MonoBehaviour
         }
         if (collision.gameObject.CompareTag("QTE"))
         {
-            
             
             Guide.SetActive(false);
         }
@@ -228,7 +225,7 @@ public class Logic : MonoBehaviour
             rb.gravityScale = 10f;
             climb = false;
             climbing = false;
-
+            Guide.SetActive(false );
         }
 
     }
