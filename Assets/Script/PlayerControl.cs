@@ -54,7 +54,7 @@ public class Logic : MonoBehaviour
         }
         else
         {
-            speed = 20;
+            speed = 10;
         }
         // speed adjust 
         if (NewBehaviourScript.Traveling != true)
