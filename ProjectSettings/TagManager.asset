@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Obstacle
+  - QTE
+  - QTE2
+  - Text
+  - Quest
+  - Bag
+  - Tem_Vil
+  - Vil_Tem
+  - Vil_Gra
+  - Gra_Vil
+  - Ent_Tem
+  - Tem_Ent
+  - LeftRight
+  - RightLeft
+  - Vil_Hou
+  - Hou_Vil
+  - Hou_Vil2
+  - Vil2_Hou
+  - Vil2_Gra
+  - Gra_Vil2
+  - Gra_Fin
+  - Fin_Gra
+  - WarpText
+  - FightSpawn
+  - GiftZone
+  - FootZone
+  - Foot
+  - QuestText
+  - Lamp
+  - Ground
+  - Gift
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Text
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Text
+    uniqueID: 1778058243
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
